@@ -1,6 +1,7 @@
 import createDataContext from './createDataContext';
 import {FLICKR_API} from '../api/flickr';
 import fetchJsonp from 'fetch-jsonp';
+
 const flickrReducer = (state, action) => {
   switch (action.type) {
     case 'fetch_photos':
