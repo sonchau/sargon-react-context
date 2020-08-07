@@ -11,7 +11,7 @@ const HeaderStyled = styled.footer`
 `;
 
 const Footer = (props) => (
-    <HeaderStyled id="footer">
+    <HeaderStyled>
         <p className="copyright">&copy; {props.user}. <a href={props.link}>{props.linkText}</a></p>
     </HeaderStyled>
 )

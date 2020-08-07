@@ -1,12 +1,29 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import styled from "styled-components";
+
+const ImageStyled = styled.img`
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+`;
+const ItemStyled = styled.li`
+   padding: 1rem;
+   background: #f9f7f6;
+   border-radius: 1rem;
+   text-align: center;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+`;
 
 const PhotoListItem = ({props}) => {
+    //const { link, title, src } = image;
     return  (
-    <li>
-        <img src={props.media.m} alt={props.title}/>
+    <ItemStyled>
+        <a target="_blank" rel="noopener noreferrer" href={props.link} title={props.title}>
+            <ImageStyled src={props.media.m} alt={props.title}/>
+        </a>
         <p>{props.title}</p> 
-    </li>
+    </ItemStyled>
     )
 }
 

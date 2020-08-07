@@ -7,7 +7,7 @@ const SearchFormStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-bottom: 2rem;
 `;
 
 const SearchInputStyled = styled.input`

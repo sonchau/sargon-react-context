@@ -5,7 +5,8 @@ import styled from "styled-components";
 
 const LayoutStyled = styled.div`
   display: grid;
-  grid-template-rows: 10rem minmax(min-content, 80vh) 6rem;
+  //grid-template-rows: 10rem minmax(min-content, 80vh) 6rem;
+  grid-template-rows: auto 1fr auto;
 `;
 
 const Layout = ({ children }) => {
