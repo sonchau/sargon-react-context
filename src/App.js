@@ -15,9 +15,7 @@ function App() {
         <Layout>
           <Header headerText="Sargon coding challenge" />
           <Main />
-          <Footer user="Son Chau"
-          link="https://github.com/sonchau/sargon-react-context"
-          linkText="View code in Github Repos" />
+          <Footer user="Copyright 2020 by Son Chau" />
         </Layout>
     </PhotoProvider>
 
