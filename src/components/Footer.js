@@ -39,8 +39,8 @@ const NavStyled = styled.nav`
 const Footer = (props) => (
     <HeaderStyled>
         <NavStyled>
-            <li><a href="https://github.com/sonchau/sargon-react-context" class="nav__link">Repos</a></li>
-            <li><a href="https://www.linkedin.com/in/sonnchau/" class="nav__link">Linkedin</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sonchau/sargon-react-context" class="nav__link">Repos</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sonnchau/" class="nav__link">Linkedin</a></li>
         </NavStyled>
         <p className="copyright">&copy; {props.user}.</p>
     </HeaderStyled>

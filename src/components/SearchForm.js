@@ -1,6 +1,7 @@
 import React, {useState, useContext} from 'react'
 import { Context as PhotoContext } from '../context/PhotoContext';
 import styled from "styled-components";
+//import { ReactComponent as Logo } from '../../public/SVG/search.svg';
 
 const SearchFormStyled = styled.div`
     flex: 0 0 40%;
@@ -22,10 +23,15 @@ const SearchInputStyled = styled.input`
     transition: all .2s;
     height: 4rem;
     line-height: 4rem;
+    margin-right: -3.25rem;
     &:focus {
         outline: none;
       width: 100%;
       background-color: #f0eeee;
+    }
+    &::-webkit-input-placeholder {
+        font-weight: 100;
+        color: #ccc; 
     }
 `;
 
@@ -36,7 +42,22 @@ const SearchHeadingStyled = styled.h2`
     padding: 2rem;
 `;
 
+const SearchIcon = styled.img`
+    height: 2rem;
+    width: 2rem;
+    fill: #999; 
+`;
 
+const SearchButton = styled.button`
+    border: none;
+    background-color: #f4f2f2;
+    .&:focus {
+        outline: none; 
+    }
+    &:active {
+        transform: translateY(2px); 
+    }
+`;
 const SearchForm = () => {
     const {fetchPhotos} = useContext(PhotoContext)
     const [tags, setTags] = useState('')
@@ -56,6 +77,10 @@ const SearchForm = () => {
                     value={tags}
                     onChange={onTagsChange}
                 />
+                <SearchButton>
+                    <SearchIcon src={process.env.PUBLIC_URL + '/search.png'} />
+                </SearchButton>
+                
             </SearchFormStyled>
         </>
     )
