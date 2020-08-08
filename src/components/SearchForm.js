@@ -52,7 +52,6 @@ const SearchForm = () => {
                 <SearchInputStyled
                     type="text"
                     placeholder="Tags"
-                    autoFocus
                     className="text-input"
                     value={tags}
                     onChange={onTagsChange}

@@ -18,10 +18,11 @@ const CreateGlobalStyle = createGlobalStyle`
 
   body {
       background: #fff;
-      font-family: 'Nunito', sans-serif;
+      font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: 400;
       min-height: 100vh;
+      line-height: 1.4;
   }
 `;
 
