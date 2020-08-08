@@ -19,7 +19,7 @@ const fetchPhotos = dispatch => async (tags) => {
       jsonpCallback: 'jsoncallback',
       timeout: 3000
     }).then(response => response.json())
-    console.log('response', response)
+    //console.log('response', response)
     dispatch({ type: 'fetch_photos', payload: response.items });
   } catch (error) {
     throw new Error(error);

@@ -2,6 +2,7 @@ import React, {useState, useContext} from 'react'
 import { Context as PhotoContext } from '../context/PhotoContext';
 import styled from "styled-components";
 //import { ReactComponent as Logo } from '../../public/SVG/search.svg';
+import { debounce } from "throttle-debounce";
 
 const SearchFormStyled = styled.div`
     flex: 0 0 40%;
@@ -63,7 +64,7 @@ const SearchForm = () => {
     const [tags, setTags] = useState('')
     const onTagsChange = (e) => {
         setTags(e.target.value)
-        fetchPhotos(e.target.value)
+        debounce(500,fetchPhotos(e.target.value))
     }
 
     return  (
