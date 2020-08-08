@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/sargon-react-context/static/js/main.0674f409.chunk.js",
+    "main.js.map": "/sargon-react-context/static/js/main.0674f409.chunk.js.map",
+    "runtime-main.js": "/sargon-react-context/static/js/runtime-main.96878473.js",
+    "runtime-main.js.map": "/sargon-react-context/static/js/runtime-main.96878473.js.map",
+    "static/js/2.9c709684.chunk.js": "/sargon-react-context/static/js/2.9c709684.chunk.js",
+    "static/js/2.9c709684.chunk.js.map": "/sargon-react-context/static/js/2.9c709684.chunk.js.map",
+    "index.html": "/sargon-react-context/index.html",
+    "precache-manifest.e86af80994bcf83aecb01108739ec9cf.js": "/sargon-react-context/precache-manifest.e86af80994bcf83aecb01108739ec9cf.js",
+    "service-worker.js": "/sargon-react-context/service-worker.js",
+    "static/js/2.9c709684.chunk.js.LICENSE.txt": "/sargon-react-context/static/js/2.9c709684.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96878473.js",
+    "static/js/2.9c709684.chunk.js",
+    "static/js/main.0674f409.chunk.js"
+  ]
+}
