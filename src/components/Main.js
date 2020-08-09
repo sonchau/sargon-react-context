@@ -10,14 +10,9 @@ const MainStyled = styled.main`
 
 const Main = props => (
   <MainStyled>
-    <p>{props.mainText}</p>
     <SearchFrom />
     <PhotoList />
   </MainStyled>
 )
-
-Main.propTypes = {
-  mainText: PropTypes.string
-}
 
 export default Main

@@ -9,6 +9,7 @@ const ItemStyled = styled.li`
    border-radius: 1rem;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
    transition: transform .3s;
+   overflow: hidden;
    &:hover {
     transform: translateY(-1rem) scale(1.03); 
     }

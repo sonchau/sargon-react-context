@@ -2,16 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from "styled-components";
 
-
-
-
-const HeaderStyled = styled.footer`
+const FooterStyled = styled.footer`
     font-size: 1.5em;
     padding: 2rem;
     text-align: center;
     background: #101d2c;
     color: #fff;
 `;
+
 const NavStyled = styled.nav`
     list-style: none;
     display: grid;
@@ -37,19 +35,17 @@ const NavStyled = styled.nav`
 `;
 
 const Footer = (props) => (
-    <HeaderStyled>
+    <FooterStyled>
         <NavStyled>
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sonchau/sargon-react-context">Repos</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sonnchau/">Linkedin</a></li>
         </NavStyled>
         <p className="copyright">&copy; {props.user}.</p>
-    </HeaderStyled>
+    </FooterStyled>
 )
 
 Footer.propTypes = {
     user: PropTypes.string,
-    link: PropTypes.string,
-    linkText: PropTypes.string
 }
 
 export default Footer

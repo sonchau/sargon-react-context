@@ -13,7 +13,7 @@ function App() {
     <PhotoProvider>
       <CreateGlobalStyles />
         <Layout>
-          <Header headerText="Sargon coding challenge" />
+          <Header headerText="Sargon coding challenge - Create React App Version" />
           <Main />
           <Footer user="Copyright 2020 by Son Chau" />
         </Layout>
