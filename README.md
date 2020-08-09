@@ -17,7 +17,7 @@
   - resonsive design with css grid layout
   - serverless deployment to [github pages](http://sonchau.github.io/sargon-react-context)
 
-### Installation
+## Installation
 
 The code requires [Node.js](https://nodejs.org/) v10+ to run.
 
@@ -29,6 +29,13 @@ $ cd sargon-react-context
 $ npm install
 $ npm run start
 ```
+
+## Production URL
+
+You can view the coding challenge by visiting the following git hub page link
+
+[https://sonchau.github.io/sargon-react-context/](https://sonchau.github.io/sargon-react-context/)
+
 ### Todos
  - Write unit using Jest and React Testing Library
  - Write functional test using Cypress
