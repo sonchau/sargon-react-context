@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sargon-react-context/precache-manifest.e86af80994bcf83aecb01108739ec9cf.js"
+  "/sargon-react-context/precache-manifest.a164b8c3cfa735ce1c118c358d99d9d3.js"
 );
 
 self.addEventListener('message', (event) => {
